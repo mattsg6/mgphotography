@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana');
+
+/* Page styles */
+
+html, body {
+    width:100%;
+    overflow-x: hidden;
+    font-family: 'Italiana', serif;
+}
+
+/* Header */
+
+.header {
+    background-image: url("/img/header1.jpg");
+    z-index: -1;
+}
+
+.header-text {
+    text-align: left;
+    margin: 1rem;
+}
+
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color: rgba(255,255,255,0);
+    padding:0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    mix-blend-mode:hard-light;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+a:hover {
+    color: white;
+    text-decoration: overline;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.mb-2 {
+    margin-bottom: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+/* Content Area - Home */
+
+.content-row {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.about-image {
+    background-image: url("/img/about.jpg");
+    background-position: 50% 50%;
+}
+
+.collection-image {
+    background-image: url("/img/collection.jpg");
+    background-position: 45% 55%;
+}
+
+.contact-image {
+    background-image: url("/img/contact.jpg");
+    background-position: 60% 50%;
+}
+
+.card {
+    border-color: black;
+}
+
+.image {
+    border-radius: 0.25rem;
+    border:1px solid;
+    border-color:black;
+}
+
+@media (max-width: 576px) {
+    .image {
+        visibility: hidden;
+        width:0;
+        height: 0;
+    }
+}
+
+/* Footer */
+
+.footer {
+    margin: 1rem;
+}
+
+.footer-row a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.footer-row a:hover {
+    text-decoration: overline;
+}
+
+/* Colors */
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.black-bg {
+    background-color: black;
+}
