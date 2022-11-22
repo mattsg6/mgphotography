@@ -11,7 +11,7 @@ html, body {
 /* Header */
 
 .header {
-    background-image: url("/images/header1.JPG");
+    background-image: url("/style/images/header1.JPG");
     z-index: -1;
 }
 
@@ -85,17 +85,17 @@ a:hover {
 }
 
 .about-image {
-    background-image: url("/images/about.JPG");
+    background-image: url("/style/images/about.JPG");
     background-position: 50% 50%;
 }
 
 .collection-image {
-    background-image: url("/images/collection.JPG");
+    background-image: url("/style/images/collection.JPG");
     background-position: 45% 55%;
 }
 
 .contact-image {
-    background-image: url("/images/contact.JPG");
+    background-image: url("/style/images/contact.JPG");
     background-position: 60% 50%;
 }
 
