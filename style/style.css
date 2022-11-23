@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Italiana&family=Montserrat&family=Peralta&family=Playfair+Display&family=Ubuntu&display=swap');
 
 /* Page styles */
 
 html, body {
     width:100%;
     overflow-x: hidden;
-    font-family: 'Italiana', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header */
@@ -66,6 +66,10 @@ a:hover {
 
 /* Content Area - Home */
 
+.moving-pics {
+    padding: 2rem;
+}
+
 .content-row {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -118,6 +122,12 @@ a:hover {
     .image {
         visibility: hidden;
         width:0;
+        height: 0;
+    }
+
+    .moving-pics {
+        visibility: hidden;
+        width: 0;
         height: 0;
     }
 }
