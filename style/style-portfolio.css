@@ -71,19 +71,31 @@ a:hover {
 
 /* Content Area - Home */
 
-.content-header {
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.moving-pics {
+    padding: 2rem;
 }
 
-.content-header-left {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.content-row {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
-.body-header {
-    text-decoration:overline;
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+a:hover {
+    color: black;
 }
 
 .about-image {
@@ -91,15 +103,46 @@ a:hover {
     background-position: 50% 50%;
 }
 
-.social-image {
-    justify-content: center;
-    width: 70px;
-    margin-bottom: 1rem;
+.collection-image {
+    background-image: url("https://mattsg6.github.io/mgphotography/images/collection.png");
+    background-position: 45% 55%;
 }
 
-.flex {
-    display: flex;
-    justify-content: center;
+.contact-image {
+    background-image: url("https://mattsg6.github.io/mgphotography/images/contact.png");
+    background-position: 60% 50%;
+}
+
+.card {
+    border-color: black;
+}
+
+.image {
+    border-radius: 0.25rem;
+    border:1px solid;
+    border-color:black;
+}
+
+@media (max-width: 576px) {
+    .image {
+        visibility: hidden;
+        width:0;
+        height: 0;
+    }
+
+    .moving-pics {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+
+/* Content Area */
+
+.portfolio-card {
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Footer */
@@ -115,6 +158,12 @@ a:hover {
 
 .footer-row a:hover {
     text-decoration: overline;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width:100%;
 }
 
 /* Colors */

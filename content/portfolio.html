@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
 
-    <link href="../style/style.css" rel="stylesheet" />
+    <link href="../style/style-portfolio.css" rel="stylesheet" />
 
     <title>MG Photography</title>
   </head>
@@ -26,7 +26,9 @@
 
         <div class="col-sm-12">
           <div class="col-sm-12 header-text white">
-            <h1>Matthew Gilmore Film Photography</h1>
+            <h1>
+              <em class="the-header">Matthew Gilmore</em> Film Photography
+            </h1>
           </div>
         </div>
 
@@ -52,11 +54,40 @@
                   <a class="nav-link" href="/content/about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="/content/portfolio.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="/content/portfolios/iceland.html">Iceland</a></li>
-                    <li><a class="dropdown-item" href="/content/portfolios/hometown.html">Hometown</a></li>
-                    <li><a class="dropdown-item" href="/content/portfolios/portraits.html">Portraits</a></li>
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="/content/portfolio.html"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Portfolio</a
+                  >
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/content/portfolios/iceland.html"
+                        >Iceland</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/content/portfolios/hometown.html"
+                        >Hometown</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/content/portfolios/portraits.html"
+                        >Portraits</a
+                      >
+                    </li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -68,13 +99,113 @@
         </nav>
       </div>
 
-      <div class="row">
-        <h3>Portfolio</h3>
+      <div class="row portfolio-card">
+        <div class="col-sm-12 col-md-4 portfolio-card">
+          <div class="card">
+            <img
+              src="/images/iceland-collection.jpg"
+              class="card-img-top"
+              alt="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Iceland</h5>
+              <p class="card-text">Summer 2022</p>
+              <a href="/content/portfolios/iceland.html" class="btn"
+                >Visit Iceland Collection</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 portfolio-card">
+          <div class="card">
+            <img
+              src="/images/portrait-collection.jpg"
+              class="card-img-top"
+              alt="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Portraits</h5>
+              <p class="card-text">Over the years...</p>
+              <a href="/content/portfolios/portraits.html" class="btn"
+                >Visit Portraits</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 portfolio-card">
+          <div class="card">
+            <img
+              src="/images/hometown-collection.jpg"
+              class="card-img-top"
+              alt="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hometown</h5>
+              <p class="card-text">Around NC</p>
+              <a href="/content/portfolios/hometown.html" class="btn"
+                >Visit Hometown Collection</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 portfolio-card">
+          <div class="card">
+            <img
+              src="/images/bw-collection.jpg"
+              class="card-img-top"
+              alt="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Black & White</h5>
+              <p class="card-text">Ilford 400 film</p>
+              <a href="/content/portfolio.html" class="btn"
+                >Coming soon</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 portfolio-card">
+          <div class="card">
+            <img
+              src="/images/double-collection.jpg"
+              class="card-img-top"
+              alt="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Double Exposure</h5>
+              <p class="card-text">Shot once, then twice</p>
+              <a href="/content/portfolio.html" class="btn"
+                >Coming soon</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 portfolio-card">
+          <div class="card">
+            <img
+              src="/images/exp-collection.jpg"
+              class="card-img-top"
+              alt="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Experiments</h5>
+              <p class="card-text">Nothing is wrong</p>
+              <a href="/content/portfolio.html" class="btn"
+                >Coming soon</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="row black-bg footer-row">
-          <h3 class="white footer">MG Photography</h3>
-          <a href="#" class="footer">Contact</a>
+        <h3 class="white footer">MG Photography</h3>
+        <a href="#" class="footer">Contact</a>
       </div>
     </div>
 
