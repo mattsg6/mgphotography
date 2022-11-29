@@ -116,6 +116,10 @@ a:hover {
     justify-content: center;
 }
 
+.about-card {
+    border: 1px solid black;
+}
+
 /* Footer */
 
 .footer {
