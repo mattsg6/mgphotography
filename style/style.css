@@ -89,7 +89,7 @@ a:hover {
 /* Content Area - Home */
 
 #myCarousel {
-    padding: 4rem;
+    padding: 3rem;
 }
 
 .arrow {
@@ -144,13 +144,29 @@ a:hover {
     border-color:black;
 }
 
+.disable {
+    visibility: hidden;
+    height:0;
+}
+
 @media (max-width: 576px) {
+    .top-header {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .disable {
+        visibility: visible;
+        height: auto;
+    }
     .image {
         visibility: hidden;
         width:0;
         height: 0;
     }
+}
 
+@media (max-width: 768px) {
     .moving-pics {
         visibility: hidden;
         width: 0;
