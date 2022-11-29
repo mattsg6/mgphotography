@@ -14,7 +14,7 @@ body {
 html, body {
     width:100%;
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 /* Header */
@@ -114,10 +114,6 @@ a:hover {
 .flex {
     display: flex;
     justify-content: center;
-}
-
-.about-card {
-    border: 1px solid black;
 }
 
 /* Footer */

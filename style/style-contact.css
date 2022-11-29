@@ -14,7 +14,7 @@ body {
 html, body {
     width:100%;
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 /* Header */
@@ -83,7 +83,13 @@ a:hover {
     color: white !important;
 }
 
-/* Content Area - Home */
+/* Content Area */
+
+.content-header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 .btn {
     background-color: black;
@@ -113,6 +119,14 @@ a:hover {
 
 .form-inst {
     padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
+
+@media (max-width: 576px) {
+    .form-inst {
+        border:none;
+    }
 }
 
 /* Footer */
