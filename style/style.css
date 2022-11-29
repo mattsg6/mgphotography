@@ -71,8 +71,12 @@ a:hover {
 
 /* Content Area - Home */
 
-.moving-pics {
-    padding: 6rem;
+#myCarousel {
+    padding: 4rem;
+}
+
+.arrow {
+    mix-blend-mode: difference;
 }
 
 .content-row {
