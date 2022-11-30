@@ -33,7 +33,7 @@ html, body {
 }
 
 .header {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/misc/header.png");
+    background-image: url("../images/misc/header.png");
     z-index: -1;
 }
 
@@ -119,17 +119,17 @@ a:hover {
 }
 
 .about-image {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/misc/about.png");
+    background-image: url("../images/misc/about.png");
     background-position: 50% 50%;
 }
 
 .collection-image {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/misc/collection.png");
+    background-image: url("../images/misc/collection.png");
     background-position: 45% 55%;
 }
 
 .contact-image {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/misc/contact.png");
+    background-image: url("../images/misc/contact.png");
     background-position: 60% 50%;
 }
 

@@ -30,7 +30,7 @@ html, body {
 }
 
 .header {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/misc/header.png");
+    background-image: url("../images/misc/header.png");
     z-index: -1;
 }
 
@@ -110,21 +110,6 @@ a:hover {
 
 a:hover {
     color: black;
-}
-
-.about-image {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/about.png");
-    background-position: 50% 50%;
-}
-
-.collection-image {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/collection.png");
-    background-position: 45% 55%;
-}
-
-.contact-image {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/contact.png");
-    background-position: 60% 50%;
 }
 
 .card {

@@ -30,7 +30,7 @@ html, body {
 }
 
 .header {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/misc/header.png");
+    background-image: url("../images/misc/header.png");
     z-index: -1;
 }
 

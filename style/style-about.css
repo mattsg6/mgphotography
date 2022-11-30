@@ -101,7 +101,7 @@ a:hover {
 }
 
 .about-image {
-    background-image: url("https://mattsg6.github.io/mgphotography/images/misc/about.png");
+    background-image: url("../images/misc/about.png");
     background-position: 50% 50%;
 }
 
