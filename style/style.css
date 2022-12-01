@@ -69,10 +69,6 @@ a:hover {
     background-color: black !important;
 }
 
-.mb-2 {
-    margin-bottom: 0 !important;
-}
-
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
         flex-direction: row;
@@ -196,10 +192,6 @@ a:hover {
 }
 
 /* Colors */
-
-.black {
-    color: black;
-}
 
 .white {
     color: white;
