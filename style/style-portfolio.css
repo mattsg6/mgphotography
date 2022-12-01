@@ -67,10 +67,6 @@ a:hover {
     background-color: black !important;
 }
 
-.mb-2 {
-    margin-bottom: 0 !important;
-}
-
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
         flex-direction: row;
@@ -83,18 +79,7 @@ a:hover {
     color: white !important;
 }
 
-/* Content Area - Home */
-
-.moving-pics {
-    padding: 2rem;
-}
-
-.content-row {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
+/* Content Area */
 
 .btn {
     background-color: black;
@@ -115,28 +100,6 @@ a:hover {
 .card {
     border-color: black;
 }
-
-.image {
-    border-radius: 0.25rem;
-    border:1px solid;
-    border-color:black;
-}
-
-@media (max-width: 576px) {
-    .image {
-        visibility: hidden;
-        width:0;
-        height: 0;
-    }
-
-    .moving-pics {
-        visibility: hidden;
-        width: 0;
-        height: 0;
-    }
-}
-
-/* Content Area */
 
 .portfolio-card {
     align-items: center;
@@ -173,10 +136,6 @@ a:hover {
 }
 
 /* Colors */
-
-.black {
-    color: black;
-}
 
 .white {
     color: white;
