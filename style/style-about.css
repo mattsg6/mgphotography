@@ -67,10 +67,6 @@ a:hover {
     background-color: black !important;
 }
 
-.mb-2 {
-    margin-bottom: 0 !important;
-}
-
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
         flex-direction: row;
@@ -87,11 +83,6 @@ a:hover {
 
 .content-header {
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.content-header-left {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -139,10 +130,6 @@ a:hover {
 }
 
 /* Colors */
-
-.black {
-    color: black;
-}
 
 .white {
     color: white;
