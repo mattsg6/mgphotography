@@ -79,9 +79,9 @@
           <h4 class="header-text the-header text-center">The Form</h4>
           <p>
             Whether you're looking to purchase a photo, ask a question, or send Matthew
-            a message, this is the place to do it. Enter your email in the first box, a short
-            descriptive subject in the second box, and your message in the inquiry box. Please
-            be patient as Matthew responds to messages.
+            a message, this is the place to do it. Enter a short descriptive subject in 
+            the first box and your inquiry in the second box. Please be patient as Matthew 
+            responds to messages.
           </p>
         </div>
         <div class="col-sm-2 col-md-4"></div>
@@ -91,27 +91,25 @@
 
       <div class="row contact-form">
         <div class="container-fluid">
-          <div class="row mb-3 form-item">
-            <label class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3">
+
+          <form>
+            <div class="row mb-3 form-item">
+              <label class="col-sm-2 col-form-label">Subject</label>
+              <div class="col-sm-10">
+                <input name="subject" type="text" class="form-control" id="subject">
+              </div>
             </div>
-          </div>
-          <div class="row mb-3 form-item">
-            <label class="col-sm-2 col-form-label">Subject</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control">
+            <div class="row mb-3 form-item">
+              <label class="col-sm-2 col-form-label">Inquiry</label>
+              <div class="form-floating">
+                <textarea name="body" class="form-control inquiry-box" id="body"></textarea>
+              </div>
             </div>
-          </div>
-          <div class="row mb-3 form-item">
-            <label class="col-sm-2 col-form-label">Inquiry</label>
-            <div class="form-floating">
-              <textarea class="form-control inquiry-box" placeholder="Write inquiry here..." id="floatingTextarea"></textarea>
+            <div class="row form-item">
+              <input type="submit" class="btn" value="Send" id="submit-button"></input>
             </div>
-          </div>
-          <div class="row form-item">
-            <a href="" class="btn">Send</a>
-          </div>
+          </form>
+
         </div>
       </div>
     </div>
@@ -128,5 +126,18 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      
+      const submitButton = document.getElementById("submit-button");
+      submitButton.addEventListener("click", sendEmail);
+      
+
+      function sendEmail() {
+        var subject = document.getElementById("subject").value;
+        var body = document.getElementById("body").value;
+
+        window.location.href = "mailto:thegilmores.matt@gmail.com?subject=" + subject + "&body=" + body;
+      }
+    </script>
   </body>
 </html>
