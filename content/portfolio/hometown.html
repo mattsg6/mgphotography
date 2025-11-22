@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="../images/misc/logo.png" />
+    <link rel="icon" href="../../images/misc/logo.png" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -15,9 +15,18 @@
       crossorigin="anonymous"
     />
 
-    <link href="../style/style-contact.css" rel="stylesheet" />
+    <link href="../../style/style-collections.css" rel="stylesheet" />
 
     <title>MG Photography</title>
+    <script
+      type="text/javascript"
+      src="../../scripts/generate-images.js"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        genImages(16);
+      });
+    </script>
   </head>
   <body>
     <div class="container-fluid">
@@ -25,9 +34,9 @@
 
       <div class="row header">
         <div class="col-sm-12 white logo">
-          <a href="../index.html">
+          <a href="../../index.html">
             <img
-              src="../images/misc/logo.png"
+              src="../../images/misc/logo.png"
               class="img-fluid logo-img"
               alt="logo"
             />
@@ -52,10 +61,10 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo3">
               <ul class="navbar-nav me-auto mb-xl-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Home</a>
+                  <a class="nav-link" href="../../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About</a>
+                  <a class="nav-link" href="../about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -72,48 +81,44 @@
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item" href="./portfolio.html"
+                      <a class="dropdown-item" href="../portfolio.html"
                         >All Collections</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./portfolio/iceland.html"
-                        >Iceland</a
-                      >
+                      <a class="dropdown-item" href="iceland.html">Iceland</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./portfolio/hometown.html"
-                        >Hometown</a
-                      >
+                      <a class="dropdown-item" href="hometown.html">Hometown</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./portfolio/portraits.html"
+                      <a class="dropdown-item" href="portraits.html"
                         >Portraits</a
                       >
                     </li>
                     <li>
                       <a
                         class="dropdown-item"
-                        href="./portfolio/black-and-white.html"
+                        href="black-and-white.html"
                         >B&W</a
                       >
                     </li>
                     <li>
                       <a
                         class="dropdown-item"
-                        href="./portfolio/experiments.html"
+                        href="experiments.html"
                         >Experiments</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./portfolio/abroad.html"
+                      <a class="dropdown-item" href="abroad.html"
                         >Abroad</a
                       >
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact</a>
+                  <a class="nav-link" href="../contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -121,59 +126,24 @@
         </nav>
       </div>
 
+      <!-- Content Body -->
+
       <div class="row">
-        <h2 class="content-header">Contact</h2>
-        <div class="col-sm-2 col-md-4"></div>
-        <div
-          class="col-sm-8 col-md-4 form-inst"
-          style="
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          "
-        >
-          <h4 class="header-text the-header text-center">The Form</h4>
-          <p>Drop a note, or don't. Up to you.</p>
-        </div>
-        <div class="col-sm-2 col-md-4"></div>
+        <h3 class="content-header">Hometown Collection</h3>
       </div>
 
-      <!-- Contact Form -->
+      <!-- Grid Format Portfolio -->
 
-      <div class="row contact-form">
-        <div class="container-fluid">
-          <form>
-            <div class="row mb-3 form-item">
-              <label class="col-sm-2 col-form-label">Subject</label>
-              <div class="col-sm-10">
-                <input
-                  name="subject"
-                  type="text"
-                  class="form-control"
-                  id="subject"
-                />
-              </div>
-            </div>
-            <div class="row mb-3 form-item">
-              <label class="col-sm-2 col-form-label">Inquiry</label>
-              <div class="form-floating">
-                <textarea
-                  name="body"
-                  class="form-control inquiry-box"
-                  id="body"
-                ></textarea>
-              </div>
-            </div>
-            <div class="row form-item">
-              <input
-                type="submit"
-                class="btn"
-                value="Send"
-                id="submit-button"
-              />
-            </div>
-          </form>
+      <div id="parent" class="row">
+        <div id="div-img-0" class="col-sm-12 col-md-4 col-lg-3">
+          <a id="a-img-0" href="../../images/hometown-portfolio/img1.jpg">
+            <img
+              id="img-0"
+              class="img-fluid portfolio-image"
+              src="../../images/hometown-portfolio/img1.jpg"
+              alt="hometown collection"
+            />
+          </a>
         </div>
       </div>
     </div>
@@ -182,7 +152,7 @@
 
     <footer class="black-bg footer-row footer">
       <h3 class="white footer-item">MG Photography</h3>
-      <a href="./contact.html" class="footer-item">Contact</a>
+      <a href="../contact.html" class="footer-item">Contact</a>
     </footer>
 
     <script
@@ -190,20 +160,5 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script>
-      const submitButton = document.getElementById("submit-button");
-      submitButton.addEventListener("click", sendEmail);
-
-      function sendEmail() {
-        var subject = document.getElementById("subject").value;
-        var body = document.getElementById("body").value;
-
-        window.location.href =
-          "mailto:thegilmores.matt+mgphotography@gmail.com?subject=" +
-          subject +
-          "&body=" +
-          body;
-      }
-    </script>
   </body>
 </html>
